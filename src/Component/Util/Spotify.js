@@ -1,5 +1,5 @@
 const clientID = "71e4c632e6fe421bb67045714448cae7"
-const redirectURI = "http://localhost:3000/"
+const redirectURI = "https://cozy-crisp-368f49.netlify.app/"
 let accessToken = undefined
 let expiresIn = undefined
 
