@@ -9,9 +9,9 @@ const Playlist = (props) => {
         props.onNameChange(change)
     }
 
-    const handleEnter = (event) => {
+    const handleEnterToSave = (event) => {
         if (event.key === 'Enter') {
-            return props.onSave
+            return props.onSave();
         }
     }
 
@@ -19,7 +19,7 @@ const Playlist = (props) => {
         <div className="Playlist">
             <input defaultValue={"My Playlist"}
                     onChange={handleNameChange}
-                    onKeyPress={handleEnter}
+                    onKeyPress={handleEnterToSave}
                     />
             <TrackList tracks={props.playlistTracks}
                         onRemove={props.onRemove}
