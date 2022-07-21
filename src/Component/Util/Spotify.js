@@ -1,5 +1,5 @@
 const clientID = "71e4c632e6fe421bb67045714448cae7"
-const redirectURI = "https://cozy-crisp-368f49.netlify.app/"
+const redirectURI = "https://jammmingguy.netlify.app/"
 let accessToken = undefined
 let expiresIn = undefined
 
